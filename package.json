@@ -23,7 +23,7 @@
     "pako": "^1.0.6",
     "serviceworker-webpack-plugin": "^1.0.1",
     "tunajs": "^1.0.13",
-    "vue": "^2.6.11",
+    "vue": "^2.7.15",
     "vue-class-component": "^7.2.6",
     "vue-grid-layout": "^2.4.0",
     "vue-property-decorator": "^8.4.2",
