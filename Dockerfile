@@ -8,7 +8,7 @@ COPY . .
 RUN npm run build
 
 # production stage
-FROM nginx:stable-alpine as production-stage
+FROM nginx:1.24-alpine3.17 as production-stage
 COPY --from=build-stage /app/dist /usr/share/nginx/html
 COPY nginx.conf /temp/nginx.conf 
 RUN envsubst / < /temp/nginx.conf > /etc/nginx/conf.d/default.conf
